@@ -1,0 +1,14 @@
+// @import '../../node_modules/bootstrap/scss/bootstrap.scss';
+@import "semai-respo";
+@import "semai-home";
+@import "semai-services";
+@import "semai-blog";
+@import "semai-freebies";
+@import "semai-porfolio";
+
+body {
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif !important;
+  margin: 0;
+  padding: 0;
+}

@@ -1,0 +1,188 @@
+.semai-services-hero-s {
+    .overlay-1 {
+        // background: linear-gradient(41deg, #564250db 0%, #ff0774 100%);
+        background: linear-gradient(36deg, #66646487 0%, #143378 60%, #00398b 100%);
+        opacity: .9;
+        padding-top: 150px;
+        position: absolute;
+        display: block;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+    }
+}
+
+.semai-blog-1 {
+    .aside-title {
+        position: relative;
+
+        &::after {
+            content: "";
+            width: 50px;
+            height: 2px;
+            display: block;
+            background: #28c77f;
+            margin-top: 10px;
+        }
+    }
+
+    .col-lg-3 {
+        .d-flex {
+            a {
+                text-decoration: none;
+                font-weight: 400;
+                color: #767f8f;
+                text-decoration: none;
+                background: #f3f3f3;
+                display: inline-block;
+                font-size: 15px !important;
+                padding: .83em 1.5em;
+                margin: 0 .0 .68em 0;
+                border-radius: 3px;
+                -webkit-transition: .15s ease-in-out;
+                transition: .15s ease-in-out;
+                &:hover{
+                    background-color:#11bfda;
+                    color: white;
+                }
+            }
+        }
+    }
+
+    .col-lg-6 {
+
+        // margin-top: 90px;
+        .img-blog-style {
+            position: relative;
+
+            a {
+                border-radius: 10px;
+
+                img {
+                    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15) !important;
+                    border-radius: 10px;
+                    width: 100%;
+                    transition: all 0.5s ease;
+
+                }
+
+            }
+
+            a::after {
+                border-radius: 10px;
+                opacity: 0;
+                // content: '';
+                background: linear-gradient(36deg, #66646487 0%, #143378 60%, #00398b 100%);
+                opacity: .9;
+                padding-top: 150px;
+                position: absolute;
+                display: block;
+                width: 100%;
+                height: 100%;
+                top: 0;
+                left: 0;
+            }
+
+            a:hover::after {
+                opacity: 0.5;
+                content: '';
+            }
+        }
+
+        .blog-info {
+            margin-top: 20px;
+
+            h5 {
+
+                color: #41464b;
+                font-weight: 700;
+            }
+
+            a {
+                display: inline-block;
+                padding: 7px 10px;
+                font-size: 75%;
+                font-weight: 700;
+                line-height: 1;
+                text-align: center;
+                white-space: nowrap;
+                vertical-align: baseline;
+                border-radius: .25rem;
+                color: #fff;
+                background-color: #6c757d;
+                text-decoration: none;
+                margin-right: 10px;
+
+                &:hover {
+                    background-color: #252a32;
+                }
+            }
+        }
+
+    }
+
+    .author-box {
+        display: flex;
+        align-items: center;
+        position: relative;
+        padding: 25px;
+        margin-top: 90px;
+
+        @include breakpoint-up(large) {
+            margin-top: 0;
+        }
+
+        background-color: #fbfbfb;
+        border: 1px solid #f3f3f3;
+        margin-bottom: 65px;
+
+        .img-plane {
+            font-size: 45px;
+        }
+    }
+
+    .author-blog-info {
+        .form-control {
+            border: 1px solid transparent;
+            border-radius: 0px;
+            box-shadow: 0 2px 4px rgba(0, 12, 31, 0.2%);
+            background-color: #fff;
+            color: #252a32;
+            font-size: 16px;
+            padding: 1.12em 1.9em;
+            transition: .15s ease-out;
+
+            &:hover {
+                // border-color: #11bfda;
+                // border-top:1px solid #11bfda;
+                // border-left:1px solid #11bfda;
+                border-bottom: 1px solid #11bfda;
+            }
+        }
+
+        button {
+
+            font-size: 14px;
+            font-weight: 700;
+            box-shadow: 0 2px 4px rgba(0, 12, 31, 0.2%);
+
+            background: 0 0;
+            border-radius: 0px;
+            padding: 1.2em;
+            min-width: 160px;
+            text-align: center;
+            cursor: pointer;
+            transition: .2s cubic-bezier(.43, .49, .51, .68);
+            color: #fff;
+            background-color: #11bfda;
+            border-color: #11bfda;
+
+            &:hover {
+                background-color: #dc3545;
+                border: 1px solid #dc3545;
+
+            }
+        }
+    }
+}
