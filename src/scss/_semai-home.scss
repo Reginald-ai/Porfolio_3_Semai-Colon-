@@ -246,10 +246,10 @@ header {
       text-align: center;
       justify-content: center;
       opacity: 0;
+
       z-index: 999;
-      transition: all 0.3s ease;
+      transition: opacity 0.3s ease;
       border-radius: 0px 0px 20px 20px;
-      margin-top: -700px;
 
       @include breakpoint-up(large) {
         opacity: 0;
@@ -258,8 +258,8 @@ header {
       }
 
       &.open {
-        opacity: 100;
-        margin-top: 0px;
+      opacity: 100;
+
 
         @include breakpoint-up(large) {
           opacity: 0;

@@ -1,14 +1,6 @@
-body {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  font-family: 'poppins', sans-serif;
-  margin: 0;
-  padding: 0;
-}
-
 header {
   position: relative;
-  font-family: 'poppins';
+  font-family: "poppins";
 }
 
 header .container {
@@ -157,15 +149,15 @@ header .navbars_nav li a {
 
 @media (min-width: 997px) {
   header .navbars_nav li a::after {
-    content: '';
+    content: "";
     position: absolute;
     width: 0px;
     height: 5px;
     left: 50%;
     bottom: 0;
     background-color: white;
-    -webkit-transition: all ease-in-out .2s;
-    transition: all ease-in-out .2s;
+    -webkit-transition: all ease-in-out 0.2s;
+    transition: all ease-in-out 0.2s;
   }
   header .navbars_nav li a:hover::after {
     width: 100%;
@@ -191,8 +183,8 @@ header .navbars_nav li a {
     height: 38px;
     text-align: center;
     font-family: Poppins, sans-serif;
-    -webkit-transition: .15s ease-in-out;
-    transition: .15s ease-in-out;
+    -webkit-transition: 0.15s ease-in-out;
+    transition: 0.15s ease-in-out;
     background-color: #d4269e;
     color: white;
   }
@@ -224,15 +216,15 @@ header .sticky li a {
 }
 
 header .sticky li a::after {
-  content: '';
+  content: "";
   position: absolute;
   width: 0px;
   height: 5px;
   left: 50%;
   bottom: 0;
   background-color: #5c5656;
-  -webkit-transition: all ease-in-out .2s;
-  transition: all ease-in-out .2s;
+  -webkit-transition: all ease-in-out 0.2s;
+  transition: all ease-in-out 0.2s;
 }
 
 header .sticky li a:hover::after {
@@ -274,10 +266,9 @@ header .header_menu .navbars_nav {
           justify-content: center;
   opacity: 0;
   z-index: 999;
-  -webkit-transition: all 0.3s ease;
-  transition: all 0.3s ease;
+  -webkit-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
   border-radius: 0px 0px 20px 20px;
-  margin-top: -700px;
 }
 
 @media (min-width: 997px) {
@@ -290,7 +281,6 @@ header .header_menu .navbars_nav {
 
 header .header_menu .navbars_nav.open {
   opacity: 100;
-  margin-top: 0px;
 }
 
 @media (min-width: 997px) {
@@ -394,7 +384,7 @@ header .header_menu .navbars_nav li:hover .span-bg::after {
 
 .semai_hero .overlay {
   background: linear-gradient(234deg, rgba(20, 51, 100, 0.3) 19%, #653af0 100%);
-  opacity: .9;
+  opacity: 0.9;
   padding-top: 150px;
   position: absolute;
   display: block;
@@ -417,8 +407,8 @@ header .header_menu .navbars_nav li:hover .span-bg::after {
   height: 38px;
   text-align: center;
   font-family: Poppins, sans-serif;
-  -webkit-transition: .15s ease-in-out;
-  transition: .15s ease-in-out;
+  -webkit-transition: 0.15s ease-in-out;
+  transition: 0.15s ease-in-out;
   background-color: #d4269e;
   color: white;
   border: none;
@@ -432,7 +422,7 @@ header .header_menu .navbars_nav li:hover .span-bg::after {
   font-size: 35px;
   font-weight: 500;
   line-height: 1.32;
-  margin-bottom: .55em;
+  margin-bottom: 0.55em;
 }
 
 .semai_hero .small-font {
@@ -646,8 +636,8 @@ header .header_menu .navbars_nav li:hover .span-bg::after {
   z-index: 1;
   -webkit-box-shadow: 0 2px 4px 0 rgba(0, 12, 31, 0.3);
           box-shadow: 0 2px 4px 0 rgba(0, 12, 31, 0.3);
-  -webkit-transition: .25s ease-in-out;
-  transition: .25s ease-in-out;
+  -webkit-transition: 0.25s ease-in-out;
+  transition: 0.25s ease-in-out;
 }
 
 .semai-body a .wrapper-l:hover {
@@ -679,7 +669,7 @@ header .header_menu .navbars_nav li:hover .span-bg::after {
   font-size: 16px;
   font-weight: 500;
   color: #252a32;
-  margin-bottom: .25em;
+  margin-bottom: 0.25em;
 }
 
 .semai-body a .wrapper-l .text-content span {
@@ -700,11 +690,11 @@ header .header_menu .navbars_nav li:hover .span-bg::after {
   left: 30px;
   bottom: -10px;
   display: block;
-  opacity: .3;
+  opacity: 0.3;
   background: -webkit-gradient(linear, left top, right top, color-stop(0, #0ec2e9), to(#6038f7));
   background: linear-gradient(90deg, #0ec2e9 0, #6038f7 100%);
-  -webkit-transition: .25s ease-in-out;
-  transition: .25s ease-in-out;
+  -webkit-transition: 0.25s ease-in-out;
+  transition: 0.25s ease-in-out;
 }
 
 .semai-body-2 {
@@ -717,7 +707,7 @@ header .header_menu .navbars_nav li:hover .span-bg::after {
   font-weight: 700;
   color: #252a32;
   line-height: 1.47;
-  margin-bottom: .7em;
+  margin-bottom: 0.7em;
 }
 
 .semai-body-2 svg {
@@ -923,7 +913,7 @@ header .header_menu .navbars_nav li:hover .span-bg::after {
 .client-content .client-wrapper .client-slider-swiper .client-slider .quotes span {
   font-size: 150px;
   color: #d3ebef;
-  font-family: 'Poppins';
+  font-family: "Poppins";
   -webkit-transform: rotate(180deg) skewX(349deg);
           transform: rotate(180deg) skewX(349deg);
   display: block;
@@ -974,8 +964,8 @@ header .header_menu .navbars_nav li:hover .span-bg::after {
   z-index: 2;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
-  -webkit-transition: .2s ease-in-out;
-  transition: .2s ease-in-out;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
   opacity: 0;
 }
 
@@ -1005,8 +995,8 @@ header .header_menu .navbars_nav li:hover .span-bg::after {
   z-index: 2;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
-  -webkit-transition: .2s ease-in-out;
-  transition: .2s ease-in-out;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
   right: -50px;
   opacity: 0;
 }
